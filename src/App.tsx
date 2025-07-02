@@ -13,6 +13,8 @@ import HelpPage from "./pages/HelpPage";
 import ServicesPage from "./pages/ServicesPage";
 import ProductPage from "./pages/ProductPage";
 
+console.log("App rendered");
+
 const App: React.FC = () => (
   <Router>
     <Routes>

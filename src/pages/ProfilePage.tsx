@@ -1,5 +1,7 @@
 import React from "react";
 
+console.log("ProfilePage rendered");
+
 const ProfilePage: React.FC = () => (
   <div style={{ padding: 32 }}>
     <h1>Profile Page</h1>

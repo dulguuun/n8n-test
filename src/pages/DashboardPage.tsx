@@ -8,6 +8,8 @@ const DashboardPage: React.FC = () => {
     navigate("/login", { replace: true });
   };
 
+  console.log("DashboardPage rendered");
+
   return (
     <div style={{ padding: 32 }}>
       <h1>Welcome to the Dashboard!</h1>

@@ -1,5 +1,7 @@
 import React from "react";
 
+console.log("HelpPage rendered");
+
 const HelpPage: React.FC = () => (
   <div style={{ padding: 32 }}>
     <h1>Help Page</h1>

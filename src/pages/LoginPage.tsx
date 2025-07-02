@@ -4,10 +4,14 @@ import { useNavigate } from "react-router-dom";
 const MOCK_USER = { username: "admin", password: "admin" };
 
 const LoginPage: React.FC = () => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [username, setUsername] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
+  const [error, setError] = useState<string>("");
   const navigate = useNavigate();
+
+  const test: unknown = () => {
+    console.log("Test function called");
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
